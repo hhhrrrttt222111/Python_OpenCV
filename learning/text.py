@@ -5,7 +5,7 @@ path = r'../images/xWPH06Gr.jpg'
 
 image = cv2.imread(path)
 
-text = 'GeeksforGeeks'
+text = 'HRTTTT'
 font = cv2.FONT_HERSHEY_SIMPLEX
 org = (00, 185)
 fontScale = 1
