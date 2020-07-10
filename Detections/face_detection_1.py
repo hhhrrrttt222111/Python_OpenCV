@@ -5,6 +5,10 @@ face_cascade = cv2.CascadeClassifier('../haarcascades/haarcascade_frontalface_de
 eye_cascade = cv2.CascadeClassifier('../haarcascades/haarcascade_eye.xml')
 
 cap = cv2.VideoCapture(0)
+width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
+height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
+
+print(width, height)
 
 while True:
     ret, img = cap.read()
